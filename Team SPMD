@@ -9,7 +9,7 @@ REPO_NAME = "new-repository-name"
 DESCRIPTION = "Description for your new repository"
 PRIVATE = False  # Set to True to make the repository private
 
-# Create a new repository on GitHub
+# Create a new repository on Git
 def create_repository():
     url = "https://api.github.com/user/repos"
     headers = {
